@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# `BESTBUCK`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is `BESTBUCK`?
 
-## Available Scripts
+`BESTBUCK` is an app which stores `(false)`data on the most popular books for the current month.
+<br>
+It holds data such as `title`, `price` and `author`.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Where can I find it?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can check it out here: [BESTBUCK](https://bestbuck.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## How can you make your own?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you'd like to make your own then you can simple fork and/or clone this repo.
+<br>
+Once you have the repo cloned locally you can do the following:
+<br>
+`open the project folder in your preferred IDE`
+<br>
+You can install all of the dependencies needed to work with this app by using:
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As this is a React App you can run it locally by using:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm run start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This will run the app in your browser @`localhost:3000`
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How do I deploy my own?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Once you're happy with your masterpiece you can create a Netlify account for free at [Netlify](https://www.netlify.com/?utm_source=google&utm_medium=paid_search&utm_campaign=12755510784&adgroup=118788138897&utm_term=netlify&utm_content=kwd-371509120223&creative=516906172749&device=c&matchtype=e&location=9046690&gclid=Cj0KCQjw6J-SBhCrARIsAH0yMZiOpXyE97tKgNjU_6oHMVqJN5VsnP8_YAQSgukOXDce7onHC9WAlA0aAqMAEALw_wcB)
+<br>
+You can then run the following in your project terminal:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This will add a `build` folder to your project folder. All you need to do is create a new project on Netlify and then drag and drop your `build` folder onto the page.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## How can I deploy changes to my app?
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you ever make changes that you want to redeploy then you can go to your `Deploys` tab and drag and drop the updated `build` folder again.
+_Hint: every time you make changes that you want to redeploy make sure you re run `npm run build`._
