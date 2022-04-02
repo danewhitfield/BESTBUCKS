@@ -1,8 +1,8 @@
-# `BESTBUCK`
+# **BESTBUCK**
 
-## What is `BESTBUCK`?
+## What is **BESTBUCK**?
 
-`BESTBUCK` is an app which stores `(false)`data on the most popular books for the current month.
+**BESTBUCK** is an app which stores `(false)`data on the most popular books for the current month.
 <br>
 It holds data such as `title`, `price` and `author`.
 
